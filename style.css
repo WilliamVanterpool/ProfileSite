@@ -1,0 +1,25 @@
+body {
+    background-color: #8696EA;
+}
+nav {
+    background-color: #4713A1;
+    overflow: hidden;
+}
+nav a{
+    float: left;
+    color: #0dabc7;
+    text-align: center;
+    padding: 15px 16px;
+    font-size: 18px;
+}
+nav a:hover {
+    background-color: #7D0679;
+    color: #0dabc7;
+}
+nav a.curr {
+    background-color: #2A0728;
+    color: #f2f2f2;
+}
+#big-name {
+    font-size: 2em;
+}
