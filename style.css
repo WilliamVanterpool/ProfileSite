@@ -24,4 +24,25 @@ nav a.curr {
     font-size: 50px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
+section {
+    width: 40%;
+    background-color: azure;
+    margin-bottom: 30px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px;
+}
+
+@media screen and (max-width: 750px) {
+    div {
+        flex-direction: column;
+    }
+    section {
+        width: 80%;
+    }    
+}
